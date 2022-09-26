@@ -7,7 +7,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  // position: relative;
 }
 
 /* /* головна навігація флекс контейнер */
@@ -16,31 +15,10 @@
   align-items: center;
 }
 
-// .header__menu {
-//   @media screen and (max-width: 767px) {
-//     position: absolute;
-//     top: 100%;
-//     left: 0;
-//     background-color: var(--color-white);
-//     height: 100vw;
-//     width: 100%;
-
-//     padding-left: 40px;
-//     padding-bottom: 45px;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     display: flex;
-//     align-items: center;
-//   }
-// }
-
 /* Logo Header */
 .nav {
   display: none;
-  // @media screen and (max-width: 767px) {
 
-  // }
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -62,10 +40,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  // @media screen and (max-width: 767px) {
-  //   display: none;
-  // }
 }
 
 .logo--header {
@@ -113,33 +87,17 @@
   letter-spacing: 0.02em;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  // @media screen and (max-width: 767px) {
-  //   font-size: 40px;
-  //   line-height: 1.18;
-  //   text-align: center;
-  // }
 }
 
 .nav__list {
   display: flex;
-  // @media screen and (max-width: 767px) {
-  //   flex-direction: column;
-  // }
 }
 
 .nav__item:not(:last-child) {
-  // @media screen and (max-width: 767px) {
-  //   margin-bottom: 40px;
-  // }
   @media screen and (min-width: 768px) {
     margin-right: 50px;
   }
 }
-// .nav__item:last-child {
-//   @media screen and (max-width: 767px) {
-//     margin-bottom: 40px;
-//   }
-// }
 
 /* Авторизація, навігація contacts*/
 .contacts {
@@ -171,11 +129,6 @@
   display: inline-flex;
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  // @media screen and (max-width: 767px) {
-  //   font-size: 34px;
-  //   line-height: 1.17;
-  // }
 }
 
 .contacts__link:hover,
@@ -204,38 +157,6 @@
 }
 
 .contacts__icon {
-  // @media screen and (max-width: 767px) {
-  //   display: none;
-  // }
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-// .header__social {
-//   @media screen and (max-width: 767px) {
-//     display: flex;
-//     flex-direction: row;
-//   }
-//   @media screen and (min-width: 768px) {
-//     display: none;
-//   }
-// }
-// .header__social-link {
-//   text-decoration: none;
-//   color: var(--accent-color-blue);
-//   display: block;
-//   font-family: 'Roboto';
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 18px;
-//   line-height: 1.22;
-
-//   letter-spacing: 0.02em;
-// }
-// .header__social-link + .header__social-link {
-//   margin-right: 20px;
-// }
-
-// .is-open {
-//   display: none;
-// }

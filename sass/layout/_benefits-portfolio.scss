@@ -12,11 +12,6 @@
 }
 /* голован сторінка карток benefits */
 
-// .benefits {
-//   display: flex;
-//   flex-wrap: wrap;
-// gap: 30px;
-
 /* background-color: teal; */
 // }
 .benefits > .benefits__card {
@@ -35,10 +30,6 @@
 // width: 370px;
 // }
 
-/* забрав 30margin в 3 карткок
-.benefits .item:nth-last-child(-n+3) {
-margin-bottom: 50px;
-} */
 
 /* забрав відступ між картинкою і текстом знизу */
 .benefits img {
@@ -98,7 +89,6 @@ margin-bottom: 50px;
 }
 
 :root {
-  // --items: 2;
   --indent: 30px;
 }
 

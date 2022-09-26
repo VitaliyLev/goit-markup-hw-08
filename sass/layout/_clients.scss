@@ -20,16 +20,7 @@
     line-height: 1.16;
   }
 }
-// .clients__list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 30px;
 
-//   @media screen and (min-width: 1200px) {
-//     display: flex;
-//     gap: 0px;
-//   }
-// }
 
 .clients__item:not(:last-child) {
   @media screen and (min-width: 1200px) {

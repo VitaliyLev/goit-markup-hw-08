@@ -51,7 +51,7 @@
             >
           </li>
         </ul>
-        <button type="button" class="burger">
+        <button type="button" class="burger" data-menu-button>
           <svg width="24px" height="16px">
             <use href="./images/icons.svg#icon-mobil-menu"></use>
           </svg>
@@ -332,5 +332,42 @@
         </div>
       </div>
     </footer>
+
+    <div class="mobil__menu" data-menu>
+      <nav class="mobil__nav">
+        <ul class="mobil__nav-list list">
+          <li class="mobil__nav-item">
+            <a href="./index.html" class="mobil__link">Студія</a>
+          </li>
+          <li class="mobil__nav-item">
+            <a href="./portfolio.html" class="mobil__link mobil__link--current">Портфоліо</a>
+          </li>
+          <li class="mobil__nav-item"><a href="" class="mobil__link">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <ul class="mobil__contact list">
+        <li class="mobil__contact-item">
+          <a href="mailto:info@devstudio.com" class="mobil__contact-link"> info@devstudio.com</a>
+        </li>
+
+        <li class="mobil__contact-item">
+          <a href="tel:+380961111111" class="mobil__contact-link"> +38 096 111 11 11</a>
+        </li>
+      </ul>
+
+      <ul class="mobil__social list">
+        <li class="mobil__social-item"><a href="" class="mobil__social-link">Instagram</a></li>
+        <li class="mobil__social-item"><a href="" class="mobil__social-link">Twitter</a></li>
+        <li class="mobil__social-item"><a href="" class="mobil__social-link">Facebook</a></li>
+        <li class="mobil__social-item"><a href="" class="mobil__social-link">LinkedIn</a></li>
+      </ul>
+      <button type="button" class="close__menu" data-menu-close>
+        <svg class="mobil__icon" width="18" height="18px">
+          <use href="./images/icons.svg#icon-close-back"></use>
+        </svg>
+      </button>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
