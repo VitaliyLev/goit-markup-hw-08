@@ -1,0 +1,55 @@
+/* Секція чим ми займаємось */
+.produce {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 47px;
+    padding-bottom: 94px;
+  }
+}
+
+.produce__title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.produce__list {
+  display: flex;
+}
+
+.produce__list .produce__item + .produce__item {
+  margin-left: 30px;
+}
+
+.produce__list img {
+  display: block;
+}
+
+.produce .produce__item {
+  position: relative;
+}
+
+.produce__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
