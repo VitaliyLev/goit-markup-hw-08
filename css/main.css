@@ -1782,4 +1782,12 @@ img {
 .mobil__link:hover,
 .mobil__link:focus {
   color: var(--accent-color-blue);
+}
+
+.mobil__social-item:not(:last-child)::after {
+  content: "";
+  height: 20px;
+  margin-left: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
