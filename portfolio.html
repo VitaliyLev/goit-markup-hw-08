@@ -179,6 +179,12 @@
             <li class="benefits__card">
               <a href="#" class="benefits__link">
                 <div class="benefits__thumb">
+                  <picture>
+                    <source srcset="asdsadda 2x" media="(min-width=320px)" />
+                    <source srcset="./saasdsad 1x, asdsadda 2x" media="(min-width=320px)" />
+                    <source srcset="./saasdsad 1x, asdsadda 2x" media="(min-width=320px)" />
+                  </picture>
+
                   <img src="./images/computer-screen.jpg" alt="монітор компютера" width="370" />
                   <div class="benefits__overlay">
                     <p>
@@ -370,4 +376,62 @@
     </div>
     <script src="./js/mobile-menu.js"></script>
   </body>
+
+  <picture>
+    <source
+      srcset="./img/img4.jpg 1x, ./img/project1.desktop@2x-min.jpg 2x"
+      media="(min-width: 1200px)"
+    />
+    <source
+      srcset="./img/project1.tablet@1x-min.jpg 1x, ./img/project1.tablet@2x-min.jpg 2x"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="./img/project1.mobile@1x-min.jpg 1x, ./img/project1.mobile@2x-min.jpg 2x"
+      media="(max-width: 767px)"
+    />
+
+    <img class="project-img" src="./img/img4.jpg" alt="Фото сайту" width="370" />
+  </picture>
+
+  <picture>
+    <source
+      srcset="./images/frontend-developer.jpg 1x, ./images/frontend-developer@2x.jpg 2x"
+      media="(min-width:1200px)"
+    />
+    <source
+      srcset="
+        ./images/frontend-developer-tablet.jpg    1x,
+        ./images/frontend-developer-tablet@2x.jpg 2x
+      "
+      media="(min-width:768px)"
+    />
+    <source
+      srcset="
+        ./images/frontend-developer-mobile.jpg    1x,
+        ./images/frontend-developer-mobile@2x.jpg 2x
+      "
+      media="(max-width:767px)"
+    />
+
+    <img
+      class="team__img"
+      src="./images/frontend-developer-mobile.jpg"
+      alt="Співробітник компанії на позиції фронтенд-розробник"
+      width="450"
+    />
+  </picture>
+
+  <li class="directionsitem">
+    <div class="directionsthumb">
+      <img
+        class="directionsimg"
+        srcset="./images/mobile.jpg 1x, ./images/mobile@2x.jpg 2x"
+        alt="Розробка для мобільних телефонів"
+        width="370"
+        height="294"
+      />
+      <h3 class="directionsdescription">Мобільні додатки</h3>
+    </div>
+  </li>
 </html>
